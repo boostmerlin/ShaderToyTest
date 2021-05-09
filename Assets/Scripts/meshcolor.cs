@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using UnityEditor;
 
 public class meshcolor : MonoBehaviour {
 
@@ -13,8 +11,6 @@ public class meshcolor : MonoBehaviour {
         colors[2] = Color.cyan;
         colors[3] = Color.blue;
         mesh.colors = colors;
-
-
   
     }
 	
